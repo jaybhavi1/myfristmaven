@@ -26,7 +26,7 @@ public class BaseTest extends BasePage
     @AfterMethod
     public void closeBrowser()
     {
-        driver.close();
+      //  driver.close();
 
     }
 }
