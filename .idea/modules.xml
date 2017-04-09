@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/myfristmaven.iml" filepath="$PROJECT_DIR$/myfristmaven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MyFirstMaven.iml" filepath="$PROJECT_DIR$/MyFirstMaven.iml" />
     </modules>
   </component>
 </project>
