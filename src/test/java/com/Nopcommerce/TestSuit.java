@@ -5,7 +5,8 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
- * Created by user on 08/04/2017.
+ * @ author Jay Vaghani on 08/04/2017.
+ * This is the Complete TestSuit
  */
 public class TestSuit extends BaseTest
 {

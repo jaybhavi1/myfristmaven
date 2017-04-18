@@ -3,7 +3,8 @@ package com.Nopcommerce;
 import org.openqa.selenium.WebDriver;
 
 /**
- * Hello world!
+ * @ author Jay Vaghani
+ * This is the Base Page
  *
  */
 public class BasePage

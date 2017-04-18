@@ -23,7 +23,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Created by user on 08/04/2017.
+ * @ author Jay Vaghani on 08/04/2017.
+ * This is Utils page will all Reusable Methods
  */
 public class Utils extends BasePage {
     // Send or Type to field like name,username or password

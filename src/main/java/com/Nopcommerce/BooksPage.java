@@ -47,6 +47,4 @@ public class BooksPage extends Utils
         // Assert user navigate to Shopping cart page
         assertTrueContains("//h1","xpath","Shopping cart","User not navigate to shopping cart page");
     }
-
-
 }

@@ -3,7 +3,7 @@ package com.Nopcommerce;
 import org.openqa.selenium.By;
 
 /**
- * Created by user on 09/04/2017.
+ * @ author Jay Vaghani on 09/04/2017.
  * This is the Login Page
  */
 public class LoginPage extends Utils
