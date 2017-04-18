@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 /**
- * Created by user on 09/04/2017.
+ * @ author Jay Vaghani on 09/04/2017.
+ * This is registration page
  */
 public class RegistrationPage extends Utils
 {
@@ -29,14 +30,31 @@ public class RegistrationPage extends Utils
         clickOnElement(By.id("register-button"));
     }
 
+    // Click on Continue for Shopping Cart Checkout
+    public void clickOnContinueButton()
+    {
+        clickOnElement(By.name("register-continue"));
+
+        //Assert User should navigate to Shopping Cart Page
+        assertTrueContains("//h1","xpath","Shopping cart","User navigate to shopping Cart");
+    }
+
+    // Click on Log out Button
     public void clickOnLogoutButton()
     {
         clickOnElement(By.className("ico-logout"));
+
+        // Assert user should log out successfully
+        assertTrueContains("//a[contains(text(),'Log in')]","xpath","Log in","User not Log out Successfully");
     }
+
+    // Click on My account Button
     public void clickOnMyAccount()
     {
         clickOnElement(By.className("ico-account"));
-    }
 
+        // Assert User navigate to My account page
+        assertTrueContains("//h1","xpath","My account - Customer info","User navigate to My account page");
+    }
 
 }
