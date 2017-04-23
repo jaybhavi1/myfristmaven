@@ -14,10 +14,11 @@ import java.util.concurrent.TimeUnit;
  */
 public class BaseTest extends BasePage
 {
+    BrowserSelector browserSelector = new BrowserSelector();
     @BeforeMethod
     public void openBrowser()
     {
-        driver = new FirefoxDriver();
+        browserSelector.selectBrowser();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("http://demo.nopcommerce.com/");
@@ -26,7 +27,7 @@ public class BaseTest extends BasePage
     @AfterMethod
     public void closeBrowser()
     {
-        driver.close();
+        driver.quit();
 
     }
 }

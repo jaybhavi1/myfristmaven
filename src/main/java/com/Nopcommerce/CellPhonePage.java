@@ -1,7 +1,6 @@
 package com.Nopcommerce;
 
 import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.asserts.SoftAssert;
 
 /**
@@ -13,7 +12,7 @@ public class CellPhonePage extends Utils
     // Create Object of Home Page
     HomePage homePage = new HomePage();
 
-    String totalPriceOfProduct;
+    java.lang.String totalPriceOfProduct;
     double price1, price2, price3;
     double total;
     double cartTotal;
