@@ -18,7 +18,7 @@ public class LoadProp extends BasePage
         prop = new Properties();
 
         try {
-            input= new FileInputStream("C:\\Users\\user\\IdeaProjects\\myfristmaven\\src\\test\\Resources\\config.properties");
+            input= new FileInputStream("C:\\Users\\Hello\\IdeaProjects\\MyMavenProject\\src\\test\\Resources\\config.properties");
             prop.load(input);
         }catch (IOException e){
             e.printStackTrace();

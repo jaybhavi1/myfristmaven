@@ -28,9 +28,9 @@ import java.util.Random;
  */
 public class Utils extends BasePage {
     // Send or Type to field like name,username or password
-    public static void typeText(By by, String tetx) {
+    public static void typeText(By by, String text) {
         driver.findElement(by).clear();
-        driver.findElement(by).sendKeys(tetx);
+        driver.findElement(by).sendKeys(text);
     }
 
     // Clear the Text in Field
